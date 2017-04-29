@@ -28,8 +28,11 @@ header {
 #about li {
   display: inline;
 }
-ul.weybec-people {
+#weybec-people ul {
   list-style-type: none;
+}
+#weybec-people li {
+  float: left;
 }
 img.headshot {
   width: 150px;
