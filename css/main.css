@@ -4,7 +4,34 @@
  *
  * Site Styles
  *****************************************************************************/
-
- html {
-     color: green;
- }
+html {
+  padding: 0;
+}
+body {
+  margin:0;
+}
+header {
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-image: url('../img/official_header.jpg');
+  background-size: cover;
+}
+#social {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 150px;
+}
+#social ul {
+  list-style-type: none;
+}
+#about li {
+  display: inline;
+}
+ul.weybec-people {
+  list-style-type: none;
+}
+img.headshot {
+  width: 150px;
+  height: auto;
+}
