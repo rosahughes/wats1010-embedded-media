@@ -17,7 +17,7 @@ header {
   background-size: cover;
 }
 #social {
-  position: absolute;
+  position: fixed;
   top: 50px;
   right: 0;
   width: 150px;
@@ -25,16 +25,10 @@ header {
 #social ul {
   list-style-type: none;
 }
-#about li {
-  display: inline;
-}
-#weybec-people ul {
-  list-style-type: none;
-}
-#weybec-people li {
-  float: left;
-}
 img.headshot {
   width: 150px;
   height: auto;
+}
+footer {
+  background-color: lightblue;
 }
