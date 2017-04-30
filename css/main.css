@@ -15,20 +15,52 @@ header {
   background-repeat: no-repeat;
   background-image: url('../img/official_header.jpg');
   background-size: cover;
+  text-align: center;
 }
 #social {
   position: fixed;
   top: 50px;
   right: 0;
   width: 150px;
+  border: 1px solid blueviolet;
+  border-radius: 12px;
+  background-color: lightblue;
 }
 #social ul {
   list-style-type: none;
 }
-img.headshot {
+#about {
+  border-radius: 12px;
+  background-color: lightcoral;
+}
+#about .lead {
+  font-size: 150%;
+  font-type: sans-serif;
+  font-style: italic;
+}
+.headshot img {
   width: 150px;
   height: auto;
 }
+div.headshot {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 25px;
+  padding: 25px;
+  width: 200px;
+  height: auto;
+  text-align: center;
+  float: center;
+  background-color: white;
+}
 footer {
-  background-color: lightblue;
+  text-align: center;
+}
+ul.main-nav {
+  text-align: center;
+  list-style-type: none;
+  padding: 1rem;
+}
+.main-nav li {
+  display: inline;
 }
