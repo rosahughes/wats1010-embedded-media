@@ -9,6 +9,7 @@ html {
 }
 body {
   margin:0;
+  font-family: sans-serif;
 }
 header {
   min-height: 400px;
@@ -17,21 +18,45 @@ header {
   background-size: cover;
   text-align: center;
 }
+h1 {
+  font-size: 250%;
+  color: white;
+  font-family: serif;
+  margin: 0;
+}
+.subtitle {
+  color: white;
+  font-size: 150%;
+  font-family: serif;
+  padding: 0;
+}
 #social {
   position: fixed;
   top: 50px;
   right: 0;
   width: 150px;
-  border: 1px solid blueviolet;
   border-radius: 12px;
   background-color: lightblue;
+  padding:15px;
 }
 #social ul {
   list-style-type: none;
 }
+.download-button {
+  text-decoration: none;
+  border-radius: 12px;
+  background-color: lightblue;
+  padding: 15px;
+  margin: 15px;
+}
+#listen {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 #about {
   border-radius: 12px;
-  background-color: lightcoral;
+  background-color: lightseagreen;
+  padding: 15px;
 }
 #about .lead {
   font-size: 150%;
@@ -43,8 +68,7 @@ header {
   height: auto;
 }
 div.headshot {
-  border: 1px solid black;
-  border-radius: 5px;
+  border-radius: 12px;
   margin: 25px;
   padding: 25px;
   width: 200px;
@@ -63,4 +87,6 @@ ul.main-nav {
 }
 .main-nav li {
   display: inline;
+  padding: 5px;
+  text-decoration: none;
 }
